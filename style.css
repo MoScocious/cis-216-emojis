@@ -1,1 +1,26 @@
+.emoji-gallery {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr 10fr;
+    grid-gap: 3rem;
+}
 
+.emoji {
+    font-size: 3rem;
+    background-color: rgb(227, 227, 227);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    /*
+    Reduce number of columns, size of gap, and size of emojis
+    */
+    .emoji-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .emoji {
+        font-size: 2rem;
+    }
+}
