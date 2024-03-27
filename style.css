@@ -1,1 +1,14 @@
+.emoji-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 
+.emoji {
+    background-color: #f0f0f0;
+    font-size: 3rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
