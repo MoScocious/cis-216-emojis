@@ -1,1 +1,22 @@
 
+.emoji-gallery {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ; /* uses all the space, compared to auto that uses only the space needed */
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.emoji {
+    border: solid 1px lightgray;
+   text-align: center;
+   align-self: center;
+}
+.container {
+    display: grid;
+    background-color: aqua;
+    height: 200px;
+}
+.centered {
+    justify-self: center; /*horizontal */
+    align-self: center; /*vertical */
+}
