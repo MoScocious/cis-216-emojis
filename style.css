@@ -20,3 +20,15 @@
     justify-self: center; /*horizontal */
     align-self: center; /*vertical */
 }
+
+.horizontal-line {
+    width: 80%;
+    height: 1px;
+    background: black;
+}
+h1 {
+    border-bottom: solid;
+    width: 60%;
+}
+
+
